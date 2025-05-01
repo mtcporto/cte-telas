@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início</title>
+
+  <!-- Adicione o código de incorporação do Google Fonts aqui -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Incluir o Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .background {
+      position: relative;
+    }
+
+    .background img {
+      /* width: 1440px; */
+      /* height: 1024px; */
+      flex-shrink: 0;
+    }
+
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .content-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0; /* Removendo espaço entre os elementos */
+      max-width: 1400px; /* Largura máxima para os elementos */
+      margin: 0px auto 0; /* Margens top 200px e centralizado horizontalmente */
+    }
+
+    .content-box {
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border: 0.50px rgba(0, 0, 0, 0.12) solid;
+      backdrop-filter: blur(20px);
+    }
+
+    .dark {
+      background: #212529;
+    }
+
+    .light {
+      background: rgba(255, 255, 255, 0.80);
+    }
+
+    .info-icon {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+
+    .logo {
+      width: 179px;
+      height: 44px;
+      flex-shrink: 0;
+    }
+
+  /* ... Estilos anteriores ... */
+
+
+  .custom-button {
+    width: 488px;
+    height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 0.50px #183884 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: inline-flex;
+    background: white;
+  }
+  
+
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <!-- Incluir o caminho da imagem de fundo (BG.png) -->
+    <img style="width: 100%; height: 100% " src="BG.webp">
+
+    <div class="overlay">
+      <div style="display: flex; justify-content: center;">
+        <div style="width: 419px; height: 667px; background: #212529; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 5px; border-top-right-radius: 5px; border: 0.50px rgba(0, 0, 0, 0.12) solid; backdrop-filter: blur(20px)"><div style="display: flex; justify-content: center;">
+          <!-- Lado esquerdo -->
+          <div style="width: 18px; height: 18px; position: relative">
+            <div style="width: 18px; height: 18px; left: 48px; top: 26px; position: absolute; background: #212529" ><img src="material-symbols_info-outline.png"  height="18px" width="auto"></div>
+          </div>
+          <div style="width: 298px; color: white; font-size: 18px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word; margin-left: 52px; margin-right: 48px; margin-top: 26px; margin-bottom: 40px;">Entenda o Cadastro Técnico Estadual</div>
+        </div>
+        <div style="margin-top: 0px; width: 323px; text-align: justify; color: #0DCAF0; font-size: 15px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word; margin-left: 48px; margin-right: 48px;">O que é o Cadastro Técnico Estadual?</div>
+        <div style="margin-top: 16px; width: 323px; text-align: justify; margin-left: 48px; margin-right: 48px;">
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">O sistema de Cadastro Técnico Estadual de Atividades Potencialmente Poluidoras e/ou Utilizadoras de Recursos Ambientais (CTE) tem como objetivo principal identificar as pessoas físicas e jurídicas sob controle e fiscalização ambiental, conforme </span>
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; text-decoration: underline; word-wrap: break-word">Instrução Normativa nº 13, de 23 de agosto de 2021</span>
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word"> e o </span>
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; text-decoration: underline; word-wrap: break-word">ACT nº 34, de 2020</span>
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">.</span>
+        </div>
+        <div style="margin-top: 26px; width: 323px; text-align: justify; color: #0DCAF0; font-size: 15px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word; margin-left: 48px; margin-right: 48px;">Quem precisa se cadastrar?</div>
+        <div style="margin-top: 16px; width: 323px; text-align: justify; margin-left: 48px; margin-right: 48px;">
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">A obrigação de inscrição no CTE/APP depende de haver enquadramento da pessoa física ou jurídica, conforme as atividades que exerce. Antes de inscrever-se, consulte o passo a passo de enquadramento e as Fichas Técnicas de Enquadramento (FTE), acessando o </span>
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; text-decoration: underline; word-wrap: break-word">passo a passo e FTEs</span>
+          <span style="color: #6C757D; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">.</span>
+        </div>
+        <div style="margin-top: 30px; width: 299px; text-align: center; color: #0DCAF0; font-size: 15px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word;margin-left: 55px;">Quer saber mais? Acesse o nosso informativo!</div>
+
+        <div style="margin-top: 9px; width: 326px; height: 34px; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; border-radius: 20px; border: 0.50px #CED4DA solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin-left: 48px; margin-right: 48px;">
+          <a href="informativos.html" style="text-decoration: none; color: #CED4DA; font-size: 14px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word;">Cadastro Técnico Estadual | Informativo</a>
+          <div style="width: 24px; height: 24px; position: relative;">
+            <div style="width: 7.41px; height: 12px; right: 20px; top: 0px; position: absolute; background: #212529;"><img src="mdi_chevron-right.svg" height="18px" width="auto" /></div>
+          </div>
+        </div>
+
+        </div>
+        <!-- Lado direito -->
+        <div class="content-box light" style="width: 673px; height: 667px; padding-left: 75px; padding-right: 75px;">
+          <div style="display: flex; justify-content: center; align-items: center; margin-top: 38px;margin-bottom: 22px;">
+            <img style="width: 100px; height: 101px" src="logo_sudema.png" alt="Logo" />
+          </div>
+
+          
+          <div style="width: 100%; text-align: center; color: #212529; font-size: 22px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word;margin-bottom: 34px;">Cadastro Técnico Estadual </div>
+
+          <div style="width: 100%; text-align: center; margin-bottom: 32px;">
+            <span style="color: #183884; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word;">Olá, seja</span>
+            <span style="color: #183884; font-size: 18px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word;"> bem vindo(a)!</span>
+          </div>
+
+          <div style="width: 100%; text-align: justify; color: #183884; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word; margin-left: 13px; margin-right: 75px; margin-bottom: 20px;">
+            Esse é o sistema de Cadastro Técnico Estadual de Atividades Potencialmente Poluidoras e/ou Utilizadoras de Recursos Ambientais na Paraíba
+          </div>
+
+          <div style="width: 100%; text-align: center; color: #212529; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word;margin-bottom: 9px;">Já possui cadastro?</div>
+
+          <div style="text-align: center; padding-top: 16px; padding-bottom: 16px;margin-bottom: 25px;">
+            <div style="display: inline-flex; justify-content: center; align-items: center; gap: 5px; background: #183884; border-radius: 30px; overflow: hidden; border: 0.50px solid; padding: 8px;">
+              <div style="    width: 488px; height: 30px;color: white; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; line-height: 30px; word-wrap: break-word;">Acessar o Sistema</div>
+            </div>
+          </div>
+
+          <div style="width: 100%; text-align: center; color: #212529; font-size: 15px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word;">Precisa realizar sua inscrição?</div>
+
+          <div style="text-align: center; padding-top: 16px;">
+            <div class="custom-button" style="color: #183884; font-size: 15px; font-family: Source Sans Pro; font-weight: 600; line-height: 30px; word-wrap: break-word;">Cadastro de Pessoa Física</div>
+          </div>
+          
+          <div style="text-align: center; padding-top: 16px;">
+            <div class="custom-button" style="color: #183884; font-size: 15px; font-family: Source Sans Pro; font-weight: 600; line-height: 30px; word-wrap: break-word;">Cadastro de Pessoa Jurídica</div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Incluir o Bootstrap JS (caso necessário) -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>

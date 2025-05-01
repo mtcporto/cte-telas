@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informativos</title>
+
+  <!-- Adicione o código de incorporação do Google Fonts aqui -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Incluir o Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .background {
+      position: relative;
+    }
+
+    .background img {
+      /* width: 1440px; */
+      /* height: 1024px; */
+      flex-shrink: 0;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0px; /* Posicionamento em relacao ao topo */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1189px;
+      height: 1024px;
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .images-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 78px; /* Margens direita e esquerda de 78px */
+      width: 100%;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #212529;
+      margin-top: 20px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      font-weight: 600;
+      color: #183884;
+      margin: 78px 78px 0; /* Margens direita e esquerda de 78px e 78px do topo */
+    }
+
+    .content-container {
+      width: 1033px;
+      height: 766px;
+      flex-shrink: 0;
+      margin: 78px; /* Margens direita e esquerda de 78px */
+    }
+
+    .content {
+      font-size: 20px;
+      font-weight: 400;
+      color: #000;
+      text-align: justify;
+      width: 100%;
+      height: 100%;
+    }
+
+
+    .info-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    width: 179px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <!-- Incluir o caminho da imagem de fundo (BG.png) -->
+    <img style="width: 100%; height: 100% " src="BG.webp" >
+    <div class="overlay" style="backdrop-filter: blur(20px)">
+      <!-- Adicionar container para as imagens -->
+      <div style="width: 1032px; height: 44px; justify-content: center; align-items: center; gap: 333px; display: inline-flex; margin-top: 34px;">
+        <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+          <div style="width: 42px; height: 41px; position: relative">
+            <div style="width: 35px; height: 34.17px; left: 3.50px; top: 3.42px; position: absolute;"><img style="width: 42px; height: 41px" src="material-symbols_info-outline.svg" /></div>
+          </div>
+          <div style="text-align: center; color: #212529; font-size: 22px; font-family: 'Source Sans Pro', sans-serif; font-weight: 700">Informativo sobre o Cadastro Técnico Estadual</div>
+        </div>
+        <img style="width: 179px; height: 44px" src="logo_horizontal_sudema_1.png" />
+      </div>
+      
+
+      <div style="display: flex; justify-content: flex-start; align-items: center; gap: 25px; margin-top: 78px;">
+
+        <div style="text-align: center; color: #183884; font-size: 20px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; word-wrap: break-word; margin-bottom: 25px;">Entenda tudo sobre o Cadastro Técnico Estadual!</div>
+      </div>
+      
+      <div style="display: flex;">
+        <!-- Primeira coluna -->
+        <div style="display: flex; flex-direction: column; gap: 35px; margin-right: 35px;">
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">            <a href="cte.html" style="text-decoration: none; color: black;">O que são os CTEs?</a></div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Para que servem os CTEs?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">O que é o Certificado de Regularidade (CR)?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Por que não consigo emitir meu CR?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Como consultar CR de empresa?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Como funciona o enquadramento?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Acordos de Cooperação Técnica (ACTs)</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Taxa de Controle e Fiscalização Ambiental (TCFA)</div>          
+        </div>
+      
+        <!-- Segunda coluna -->
+        <div style="display: flex; flex-direction: column; gap: 35px;">
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Qual é a base legal?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Quem deve se cadastrar?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Como emitir e cancelar o Certificado de Regularidade?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Qual a validade do meu CR?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Quem deve se cadastrar?</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Glossário</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Cursos do CTE/APP</div>          
+          <div style="width: 499px; height: 61px; background: white; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10); border-radius: 10px; border: 0.50px rgba(0, 0, 0, 0.20) solid; display: flex; align-items: center; justify-content: center; text-align: center; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Legislação  </div>          
+
+        </div>
+      </div>
+      
+
+      
+      
+
+    </div>
+  </div>
+
+  <!-- Incluir o Bootstrap JS (caso necessário) -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
